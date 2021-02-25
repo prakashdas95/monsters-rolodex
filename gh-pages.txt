@@ -1,0 +1,15 @@
+  "name": "monsters-rolodex",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://prakashdas95.github.io/monsters-rolodex",
+     
+
+//*********script******//
+
+ "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+
+
+git add -A
+git commit -m "description"
